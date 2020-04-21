@@ -8,8 +8,7 @@ base on project : M031BSP_UART_RX_UnknownLength , add UART command parsing , EVM
 - CMD format : (if data length define as 4)
 
 		0   	1   	2    	3   	4   	5   	6   	7		8
-		
-	HEADER 		func  	len		D0  	D1  	D2  	D3		CHK 	TAIL
+		HEADER 	func  	len		D0  	D1  	D2  	D3		CHK 	TAIL
 
 - CHECKSUM = 0 - (byte 0 + ... byte 6) , if UARTCMD_DATA_LEN define 4 
 
